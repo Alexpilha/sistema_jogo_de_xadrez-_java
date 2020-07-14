@@ -1,11 +1,11 @@
 package aplication;
 
-import boardgame.position;
+import boardgame.Position;
 
 public class progam {
 
 	public static void main(String[] args) {
-	position pos = new position(3, 5);
+	Position pos = new Position();
      System.out.println(pos);
 	}
 
